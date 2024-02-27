@@ -1,7 +1,9 @@
 <script setup>
 import ListagemProdutos from '@/components/listagemProdutos.vue';
+import MenuSuperior from '@/components/menuSuperior.vue';
 </script>
 
 <template>
-  <ListagemProdutos/>
+  <MenuSuperior />
+  <ListagemProdutos />
 </template>
