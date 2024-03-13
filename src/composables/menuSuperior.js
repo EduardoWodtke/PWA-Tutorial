@@ -25,7 +25,7 @@ import {
           import('@/components/menuSuperiorCelular.vue'),
         );
         footer.value = defineAsyncComponent(() =>
-          import('@/components/footerMobile.vue'),
+          import('@/components/footerCelular.vue'),
         );
       } else if (width < 1000) {
         breakpoint.value = 'tablet';
@@ -33,7 +33,7 @@ import {
           import('@/components/menuSuperiorTablet.vue'),
         );
         footer.value = defineAsyncComponent(() =>
-          import('@/components/footerMobile.vue'),
+          import('@/components/footerTablet.vue'),
         );
       } else {
         breakpoint.value = 'desktop';

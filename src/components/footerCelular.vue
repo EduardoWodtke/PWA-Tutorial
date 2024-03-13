@@ -1,5 +1,8 @@
 <script setup>
 import Account from 'vue-material-design-icons/Account.vue';
+import Home from 'vue-material-design-icons/Home.vue'
+import Star from 'vue-material-design-icons/Star.vue'
+
 </script>
 
 <template>
@@ -8,10 +11,10 @@ import Account from 'vue-material-design-icons/Account.vue';
             <Account size="50" />
         </div>
         <div class="blocosFooter">
-            <Account size="50" />
+            <Home size="50" />
         </div>
         <div class="blocosFooter">
-            <Account size="50"/>
+            <Star size="50"/>
         </div>
     </footer>
 </template>
@@ -23,7 +26,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
     bottom: 0%;
 }
 

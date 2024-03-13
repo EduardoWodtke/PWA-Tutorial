@@ -12,7 +12,7 @@ const menuAberto = ref(false);
     <header>
       <div class="header--logo">
         <img src="@/assets/logoFakeStore.jpg" alt="Logo" />
-        <h1>FakeStore - mobile</h1>
+        <h1>FakeStore</h1>
       </div>
       <nav>
         <ul :class="menuAberto ? 'menu' : ''">
@@ -50,13 +50,6 @@ header {
   height: 3rem;
   margin-right: 0.5rem;
 }
-nav ul {
-  display: flex;
-  gap: 1rem;
-}
-nav li {
-  list-style: none;
-}
 
 .header--icons {
   display: flex;
@@ -65,8 +58,6 @@ nav li {
 .menu-hamburger {
   display: none;
 }
-
-@media (max-width: 768px) {
   nav ul {
     display: none;
   }
@@ -89,6 +80,6 @@ nav li {
     display: block;
     margin-top: 12px;
   }
-}
+
 </style>
   
